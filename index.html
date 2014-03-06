@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chocolate Pizza - Delicious: THE BEST FOOD BLOG ON THE WEB.</title>
+
+<link href="css/style.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Yellowtail|Oswald:700|Carrois+Gothic+SC' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Delius' rel='stylesheet' type='text/css'>
+
+<script src="js/jquery-2.1.0.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script>
+	$(function () {
+	    $('input:checkbox').on('change', function () {
+	        var input = $(this).next('span');
+	        if (this.checked) {
+	            $(input).css('textDecoration', 'line-through');
+	        } else {
+	            $(input).css('textDecoration', 'none');
+	        }
+	    })
+	})
+</script>
+</head>
+<body>
+	<header>
+		<div id="logo">
+			<img src="img/logo.png" />
+		</div>
+		<div id="header">
+			<h1>Delicious</h1>
+			<h6>THE BEST FOOD BLOG ON THE WEB.</h6>
+		</div>
+		<div id="social-media">
+			<ul>
+				<li><img src="img/fb-icon.png" /></li>
+				<li><img src="img/twit-icon.png" /></li>
+				<li><img src="img/gp-icon.png" /></li>
+				<li><img src="img/insta-icon.png" /></li>
+				<li><img src="img/flic-icon.png" /></li>
+				<li class="last"><img src="img/pint-icon.png" /></li>
+				<li><img src="img/rss-icon.png" /></li>
+				<li><img src="img/mail-icon.png" /></li>
+			</ul>
+		</div>
+	</header>
+	<div class="hr">
+	</div>
+	<div id="content">
+		<h1>Chocolate Pizza</h1>
+		<div id="utility">
+			<div id="time-stamp">
+				<h5>POSTED ON 15 DEC 2013 / DESSERTS</h5>
+			</div>
+			<div id="print">
+				<img src="img/print-icon.png" /><span>PRINT</span>
+			</div>
+		</div>
+		<img src="img/choco-pizza.png" id="main"/>
+		<p>For the fig-swirl: Melt butter over medium hear in a saucepan. Add brown sugar and stir to dissolve. Halve all the figs and toss in the sauceoan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunk-jammy mixture. Add salt with one or two stirs, set aside and let cool completely</p>
+
+		<p>Ice cream: In a small pot over medium hear, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
+
+		<p>Using an ice cream machine, pour liquids into the frozen basen and process according to manufacturer instructions, i.e., let spin and thinken for 20 minutes before adding mascarapone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
+
+		<div id="check-list">
+			<div class="list-box">
+				<form action="">
+					<ul>
+						<li><input type="checkbox" name="ingredient" value="Milk" class="strike-item"><span>1 1/2 cups of milk</span></li>
+						<li><input type="checkbox" name="ingredient" value="mascarpone" class="strike-item"><span>1/2 cup mascarpone</span></li>
+						<li><input type="checkbox" name="ingredient" value="pink-salt" class="strike-item"><span>1/2 tsp pink salt</span></li>
+						<li><input type="checkbox" name="ingredient" value="figs" class="strike-item"><span>1 lb Black Mission Figs</span></li>
+						<li><input type="checkbox" name="ingredient" value="brown-sugar" class="strike-item"><span>1/2 cup brown sugar</span></li>
+						<li><input type="checkbox" name="ingredient" value="water" class="strike-item"><span>2-4 tbsp water</span></li>
+					</ul>
+				</form>
+			</div>
+			<div class="list-box">
+				<form action="">
+					<ul>
+						<li><input type="checkbox" name="ingredient" value="heavy-cream" class="strike-item"><span>1 1/2 cups heavy cream</span></li>
+						<li><input type="checkbox" name="ingredient" value="sugar" class="strike-item"><span>1/3 granulated sugar</span></li>
+						<li><input type="checkbox" name="ingredient" value="eggs" class="strike-item"><span>2 egg yolks</span></li>
+						<li><input type="checkbox" name="ingredient" value="lemon-juice" class="strike-item"><span>1 lemon, juiced</span></li>
+						<li><input type="checkbox" name="ingredient" value="butter" class="strike-item"><span>2 tbsp butter</span></li>
+						<li><input type="checkbox" name="ingredient" value="pecans" class="strike-item"><span>1 cup honey roasted pecans, roughly chopped</span></li>
+					</ul>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="hr">
+	</div>
+	<aside>
+		<div id="van-pic">
+			<img src="img/van-pic.png" />
+		</div>
+		<div id="vanessa">
+			<h3>Vanessa Stevenson</h3>
+			<p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+		</div>
+		<div id="share">
+			<button>SHARE RECIPE</button>
+		</div>
+	</aside>
+	<footer>
+		<div id="footer">
+			<hr class="footer" />
+		</div>
+		<ul>
+			<li>Delicious &copy 2014 - All Rights Reserved</li>
+			<li>Proudly published with Ghost</li>
+		</ul>
+	</footer>
+</body>
+
+</html>
