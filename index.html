@@ -9,18 +9,7 @@
 
 <script src="js/jquery-2.1.0.min.js"></script>
 <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-<script>
-	$(function () {
-	    $('input:checkbox').on('change', function () {
-	        var input = $(this).next('span');
-	        if (this.checked) {
-	            $(input).css('textDecoration', 'line-through');
-	        } else {
-	            $(input).css('textDecoration', 'none');
-	        }
-	    })
-	})
-</script>
+<script src="js/checkbox-script.js"></script>
 </head>
 <body>
 	<header>
