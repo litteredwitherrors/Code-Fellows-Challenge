@@ -220,21 +220,21 @@ footer {
 	margin: auto;
 }
 
-hr.footer {
+hr.crown {
     padding: 0;
     border: none;
     border-top: 1px solid #999999;
     color: #999999;
     text-align: center;
 }
-hr.footer:after {
+hr.crown:after {
     content: url(../img/small-logo.png);
     display: inline-block;
     position: relative; 
     top: -0.7em;  
     font-size: 1.5em;
     padding: 0 0.25em;
-    background: white;
+    background: #FEEFE7;
 }
 
 footer ul {
